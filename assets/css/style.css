@@ -2171,6 +2171,12 @@ button:focus {
 	border-bottom: 5px #41BBAC transparent;
 }
 
+.urbana-misc-content {
+	background: url(../img/urbana/21.png) no-repeat center center !important;
+	background-size: 100% auto !important;
+	border-bottom: 5px #41BBAC transparent;
+}
+
 .zero-misc-content {
 	background: url(../images/zero/kontak.jpg) no-repeat center center !important;
 	background-size: 100% auto !important;
