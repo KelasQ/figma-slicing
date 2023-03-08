@@ -2172,7 +2172,13 @@ button:focus {
 }
 
 .urbana-misc-content {
-	background: url(../img/urbana/21.png) no-repeat center center !important;
+	background: url(../img/urbana/end.jpg) no-repeat center center !important;
+	background-size: 100% auto !important;
+	border-bottom: 5px #41BBAC transparent;
+}
+
+.ecobrick-misc-content {
+	background: url(../img/ecobrick/end.jpg) no-repeat center center !important;
 	background-size: 100% auto !important;
 	border-bottom: 5px #41BBAC transparent;
 }
@@ -3419,4 +3425,31 @@ a { text-decoration: none !important;}
 	background-color: #5E5E5E;;
 }
 
+/* Eco Brick */
 
+.keunggulan-batako-1:before,
+.keunggulan-batako-2:before, 
+.keunggulan-batako-3:before, 
+.keunggulan-batako-4:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;	
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
+}
+
+.keunggulan-batako-1:before { background-image: url(../img/ecobrick/k1.png); }
+.keunggulan-batako-2:before { background-image: url(../img/ecobrick/k2.png); }
+.keunggulan-batako-3:before { background-image: url(../img/ecobrick/k3.png); }
+.keunggulan-batako-4:before { background-image: url(../img/ecobrick/k4.png); }
+
+.box-img {
+	display: flex;
+	justify-content: end;
+}
