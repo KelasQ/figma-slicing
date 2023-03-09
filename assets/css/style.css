@@ -2176,9 +2176,15 @@ button:focus {
 	background-size: 100% auto !important;
 	border-bottom: 5px #41BBAC transparent;
 }
-
+ 
 .ecobrick-misc-content {
 	background: url(../img/ecobrick/end.jpg) no-repeat center center !important;
+	background-size: 100% auto !important;
+	border-bottom: 5px #41BBAC transparent;
+}
+
+.evomix-misc-content {
+	background: url(../img/evomix/end.jpg) no-repeat center center !important;
 	background-size: 100% auto !important;
 	border-bottom: 5px #41BBAC transparent;
 }
@@ -3085,6 +3091,9 @@ button:focus {
     font-size: 29px !important;
 }
 
+.fs-26{
+    font-size: 26px !important;
+}
 
 .fs-23{
     font-size: 23px !important;
@@ -3452,4 +3461,35 @@ a { text-decoration: none !important;}
 .box-img {
 	display: flex;
 	justify-content: end;
+}
+
+/* Evomix */
+.keunggulan-evomix-1:before,
+.keunggulan-evomix-2:before, 
+.keunggulan-evomix-3:before, 
+.keunggulan-evomix-4:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;	
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
+}
+
+.keunggulan-evomix-1:before { background-image: url(../img/evomix/k1.png); }
+.keunggulan-evomix-2:before { background-image: url(../img/evomix/k2.png); }
+.keunggulan-evomix-3:before { background-image: url(../img/evomix/k3.png); }
+.keunggulan-evomix-4:before { background-image: url(../img/evomix/k4.png); }
+
+.border-none {
+	margin-left: 12px !important;
+}
+
+.border-none tr td {
+	border: 1px solid #fff !important;
 }
