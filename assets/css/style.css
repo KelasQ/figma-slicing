@@ -19,8 +19,8 @@ html {
 body {
 	height: 100%;
 	background-color: var(--bg-color);
-    line-height: 1.8em;
-    font-family: 'Montserrat' !important;
+	line-height: 1.8em;
+	font-family: 'Montserrat' !important;
 }
 
 button:focus {
@@ -205,6 +205,10 @@ button:focus {
 	margin-bottom: 20px;
 }
 
+.mb30 {
+	margin-bottom: 30px;
+}
+
 .mb40 {
 	margin-bottom: 40px;
 }
@@ -270,7 +274,7 @@ button:focus {
 
 .user-panel>.info>p {
 	color: #FFF;
-
+	
 }
 
 .action-link {
@@ -695,8 +699,8 @@ button:focus {
 
 .tentang-banner {
 	background: url(../images/tentang-banner-01.jpg) no-repeat center center;
-    background-size: cover !important;
-    justify-content: center;
+	background-size: cover !important;
+	justify-content: center;
 }
 
 .kontak-banner {
@@ -2176,7 +2180,7 @@ button:focus {
 	background-size: 100% auto !important;
 	border-bottom: 5px #41BBAC transparent;
 }
- 
+
 .ecobrick-misc-content {
 	background: url(../img/ecobrick/end.jpg) no-repeat center center !important;
 	background-size: 100% auto !important;
@@ -2625,28 +2629,28 @@ button:focus {
 		width: 55%;
 		font-size: 3.2rem;
 	}
-
+	
 	.homepages .big-description {
 		width: 100%;
 	}
-
+	
 	.misc-content {
 		background-color: #000;
 		background-size: auto 100%;
 	}
-
+	
 	.main-footer .block-1 img {
 		/*width: 20%;*/
 	}
-
+	
 	.tentang-banner, .faq-banner {
 		min-height: 327px;
 	}
-
+	
 	.medium-title {
 		margin-top: 9%!important;
 	}
-
+	
 	.kontak-banner p {
 		width: 65%;
 	}
@@ -2657,11 +2661,11 @@ button:focus {
 		height: 104px;
 		max-height: 104px;
 	}
-
+	
 	.pt-normal {
 		padding-top: 60px !important;
 	}
-
+	
 	.content-wrapper {
 		padding-top: 200px!important;
 	}
@@ -2671,86 +2675,86 @@ button:focus {
 	.content-wrapper {
 		padding-top: 56px!important;
 	}
-
+	
 	.kontak-banner p {
 		width: 65%;
 	}
-
+	
 	.pt-normal {
 		padding-top: 60px !important;
 	}
-
+	
 	.head-content {
 		width: 100%;
 	}
-
+	
 	.main-header {
 		height: 100px;
 		max-height: 100px;
 	}
-
+	
 	.faq-banner {
 		min-height: 177px;
 	}
-
+	
 	.navbar-custom-menuxx {
 		display: block;
 	}
-
+	
 	.main-homepages h1.big-title {
 		width: 80%;
 	}
-
+	
 	.tentang-content .main-content {
 		width: 100%;
 	}
-
+	
 	.tentang-content p {
 		font-size: 1.4rem;
 	}
-
+	
 	.misc-content {
 		background-size: auto 100%;
 	}
-
+	
 	.main-homepages img {
 		max-height: 257px;
 		width: 100%;
 		height: auto;
 		margin-top: 20px;
 	}
-
+	
 	.main-homepages h1 {
 		width: 100% !important;
 		text-align: left;
 		margin-bottom: 30px;
 	}
-
+	
 	.main-homepages h1.first, .main-homepages h1.big-title {
 		text-align: center!important;
 		font-size: 2.5rem;
 	}
-
+	
 	.mobile-main-sidebar {
 		display: block;
 	}
-
+	
 	.left-bg {
 		display: none;
 	}
-
+	
 	.mobile-logo {
 		display: block;
 	}
-
+	
 	.sidebar-toggle {
 		display: block;
 	}
-
+	
 	.mobile-sidebar {
 		display: block;
 	}
-
+	
 	.main-homepage h2{
 		width: 70%;
 		color: #41BBAC;
@@ -2758,60 +2762,60 @@ button:focus {
 		font-weight: bold;
 		font-family: var(--font);
 	}
-
+	
 	.main-content, .layanan-content {
 		width: 100%;
 	}
-
+	
 	.main-content .alur {
 		flex-direction: column;
 	}
-
+	
 	.main-content .alur .alur-item {
 		width: 100%;
 	}
-
+	
 	.main-header .logo {
 		width: 100%;
 		float: none;
 	}
-
+	
 	.main-header .logo, .main-header .navbar {
 		width: 100%;
 		float: none;
 	}
-
+	
 	.panduan-row {
 		flex-direction: column;
 	}
-
+	
 	.navbar-custom-menu {
 		display: none;
 	}
-
+	
 	.navbar-custom-menux {
 		display: block;
 	}
-
+	
 	.mobile-submenu {
 		display: block;
 	}
-
+	
 	.main-sidebar {
 		padding-top: 56px!important;
 	}
-
+	
 	.box-title {
 		float: left;
 		width: 100%;	
 	}
-
+	
 	.box-tools {
 		width: 100%;
 		float: left;
 		position: relative!important;
 	}
-
+	
 	.circles-bg {
 		width: 25px;
 		height: 25px;
@@ -2825,55 +2829,55 @@ button:focus {
 		align-items: center;
 		box-sizing: border-box;
 	}
-
+	
 	.product-price {
 		text-align: left;
 		margin-bottom: 15px!important;
 	}
-
+	
 	.box-tools .input-group {
 		float: left;
 		margin-left: 10px;
 		margin-bottom: 10px;
 	}
-
+	
 	.fixed .content-wrapper, .fixed .right-side {
 		padding-top: 100px;
 	}
-
+	
 	.content-wrapper {
 		min-height: 616px!important;
 	}
-
+	
 	.notifications-menu a {
 		color: #41BBAC!important;
 		padding: 10px;
 	}
-
+	
 	.main-sidebar {
 		-webkit-transform: translate(-288px, 0);
 		-ms-transform: translate(-288px, 0);
 		-o-transform: translate(-288px, 0);
 		transform: translate(-288px, 0);
 	}
-
+	
 	.main-header .navbar, .content-wrapper, .main-footer {
 		margin-left: 0;
 	}
-
+	
 	.header-text a.active .active-border, .header-text a:hover .active-border {
 		width: 15%;
 	}
-
+	
 	.circle-border {
 		padding-top: 13%;
 	}
-
+	
 	.register-flex {
 		display: block;
 		min-height: auto!important;
 	}
-
+	
 	.register-box {
 		width: 90%;
 		box-sizing: border-box;
@@ -2882,484 +2886,488 @@ button:focus {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
-
+	
 	.button-line {
 		width: 40px;
 		margin: 0 10px;
 	}
-
+	
 	.table-responsive {
 		border-color: #41BBAC;
 	}
-
+	
 	.product-row {
 		margin-bottom: 0!important;
 	}
-
+	
 	.product-item .product-image {
 		height: 138px;
 	}
-
+	
 	.product-item .product-image img {
 		max-height: 138px;
 	}
-
+	
 	.content-wrapper {
 		margin-left: 0!important;
 		min-height: auto!important;
 	}
-
+	
 	.main-footer {
 		flex-direction: column;
 		padding: 15px;
 		background-size: cover;
 	}
-
+	
 	.main-footer .block-1, .main-footer .block-2, .main-footer .block-3 {
 		width: 100%;
 		padding-left: 0;
 		padding-right: 0;
 	}
-
+	
 	.main-footer .block-2 ul {
 		margin: 25px 0 30px 0;
 		width: 100%;
 	}
-
+	
 	.main-footer .block-1 img, .main-footer .block-3 img {
 		margin-left: 0;
 	}
-
+	
 	.extra-content {
 		display: block;
 		flex-wrap: none;
 	}
-
+	
 	.block-3 .address-sections {
 		margin-top: 30px;
 	}
-
+	
 	.extra-item {
 		text-align: center!important;
 	}
-
+	
 	.extra-item img {
 		margin: 25px 0 0 0;
 	}
-
+	
 	.extra-item-content {
 		text-align: left;
 	}
-
+	
 	.search-box {
 		width: 100%!important;
 	}
-
+	
 	#dialog-login .modal-dialog {
 		max-width: 95%;
 	}
-
+	
 	.product-item {
 		min-height: 292px;
 	}
-
+	
 	.product-item h5 {
 		word-wrap: break-word;
 		font-size: 1.25rem;
 	}
-
+	
 	#table-section {
 		width: 100%;
 		word-wrap: break-word;
 	}
-
+	
 	#checkout-section {
 		width: 100%;
 	}
-
+	
 	.table-section {
 		width: 50%!important;
 		word-wrap: break-word;
 	}
-
+	
 	.checkout-section {
 		width: 50% !important;
 	}
-
+	
 	.layanan-container {
 		width: 100%;
 	}
-
+	
 	.client-content h2 {
 		font-size: 3.25rem;
 	}
-
+	
 	.achievement-container {
 		width: 100%;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-
+	
 	.achievement-data {
 		display: block;
 	}
-
+	
 	.achievement-content {
 		background-size: auto 100%;
 	}
-
+	
 	.achievement-item {
 		margin-bottom: 25px;
 	}
-
+	
 	.client-item {
 		height: auto;
 		display: block;
 	}
-
+	
 	.client-item img {
 		width: 50%;
 		margin-bottom: 25px;
 	}
-
+	
 	.faq-banner {
 		background-size: auto 100%;
 	}
-
+	
 	.syarat-content {
 		margin: 0;
 		width: 100%;
 	}
-
+	
 	.kontak-banner {
 		background-size: cover !important;
 	}
-
+	
 	.kontak-banner h1, .kontak-banner p {
 		width: 100%!important;
 	}
-
+	
 	.homepages h1 {
 		font-size: 2.25rem!important;
 		width: 80%!important;
 	}
-
+	
 	.owl-carousel {
 		height: 250px;
 	}
-
+	
 	.owl-carousel .owl-item img {
 		height: 250px !important;
 		width: auto!important;
 	}
-
+	
 	.homepages .link-button {
 		position: static;
 	}
-
+	
 	.main-homepagess {
 		padding-top: 25px;
 	}
-
+	
 	.main-homepagess .big-title {
 		font-size: 24px;
 	}
-
+	
 	.main-homepagess p {
 		font-size: 1.2rem;
 	}
 }
 
 .content.blog-detail-content {
-    font-size: 1.2em;
-    line-height: 1.8em;
+	font-size: 1.2em;
+	line-height: 1.8em;
 }
 
 .content.blog-detail-content .wp-caption {
-    font-size: 10px;
-    font-style:italic;
+	font-size: 10px;
+	font-style:italic;
 }
 
 
 .btn {
-    border-radius: 50px;
+	border-radius: 50px;
 }
 
 .block-2 ul li:last-child {
-    display: none;
+	display: none;
 }
 
 .fs-36{
-    font-size: 36px !important;
+	font-size: 36px !important;
 }
 
 .fs-29{
-    font-size: 29px !important;
+	font-size: 29px !important;
 }
 
 .fs-26{
-    font-size: 26px !important;
+	font-size: 26px !important;
 }
 
 .fs-23{
-    font-size: 23px !important;
+	font-size: 23px !important;
 }
 
 .fs-20{
-    font-size: 20px !important;
+	font-size: 20px !important;
+}
+
+.fs-18 {
+	font-size: 18px !important;
 }
 
 .fs-15 {
-    font-size: 15px !important;
+	font-size: 15px !important;
 }
 
 .fs-14 {
-    font-size: 14px !important;
+	font-size: 14px !important;
 }
 
 .fs-12 {
-    font-size: 12px !important;
+	font-size: 12px !important;
 }
 
 .semibold {
-    font-weight: 600 !important;
+	font-weight: 600 !important;
 }
 
 .text-black {
-    color: #000 !important;
+	color: #000 !important;
 }
 
 .text-gray {
-    color: #5e5e5e !important;
+	color: #5e5e5e !important;
 }
 
 #layanan-1 .main-homepagess .big-title {
-    font-weight: 600 !important;
+	font-weight: 600 !important;
 }
 
 #layanan-1 .layanan-section>h2{
-    font-size: 29px;
-    color: #000;
-    font-weight: 600;
+	font-size: 29px;
+	color: #000;
+	font-weight: 600;
 }
 
 #layanan-1 .uu-content {
-    font-size: 14px;
+	font-size: 14px;
 }
 
 #layanan-1 .epr-category-sub > h2,
 #layanan-3 .epr-category-sub > h2,
 #layanan-1 .epr-solution-content > h2 {
-    font-size: 29px;
-    color: #000;
+	font-size: 29px;
+	color: #000;
 }
 
 #layanan-1 .epr-category-sub .alur p,
 #layanan-3 .epr-category-sub .alur p,
 #layanan-1 .epr-solution-content .alur p {
-    font-size: 12px;
+	font-size: 12px;
 }
 
 #layanan-1 .epr-category-sub .alur .alur-item img {
-    width: 92px;
+	width: 92px;
 }
 
 
 #layanan-1 .epr-solution-content .alur .alur-item img{
-    width: 147px;
+	width: 147px;
 }
 
 #misc-content-1 h2 {
-    font-size: 29px;
+	font-size: 29px;
 }
 
 #misc-content-1 .btn{
-    font-size: 15px;
-    font-weight: 600;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 
 #page-penawaran .big-title,
 #page-contact .big-title,
 #page-faq .big-title{
-    font-weight: 600;
-    font-size: 36px;
-    font-family: Montserrat;
+	font-weight: 600;
+	font-size: 36px;
+	font-family: Montserrat;
 }
 
 #page-penawaran .penawaran-content .column p,
 #page-contact .penawaran-content .column p{
-    font-size: 15px !important;
+	font-size: 15px !important;
 }
 
 #page-penawaran .support-content h2,
 #page-contact .support-content h2{
-    font-weight: 600;
-    font-size: 29px !important;
+	font-weight: 600;
+	font-size: 29px !important;
 }
 
 #page-penawaran .support-content h3,
 #page-contact .support-content h3 {
-    font-size: 15px;
+	font-size: 15px;
 }
 
 
 #page-contact .contact-form .btn { 
-    font-size: 15px;
-    font-weight: 600;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 #blog-tab ul li > a{
-    font-size: 15px;
-    text-decoration: none;
+	font-size: 15px;
+	text-decoration: none;
 }
 
 .blog-content h2{
-    font-size: 29px;
+	font-size: 29px;
 }
 
 #page-faq .collapse-title {
-    font-size: 15px;
+	font-size: 15px;
 }
 
 #page-panduan-detail-1 .panduan-detail h3 {
-    font-size: 29px;
-    font-weight: 600;
+	font-size: 29px;
+	font-weight: 600;
 }
 
 #panduan-limbah-b3-misc h2 {
-    font-size: 29px;
-    font-weight: 600;
+	font-size: 29px;
+	font-weight: 600;
 }
 
 #panduan-limbah-b3-misc .btn {
-    font-size: 15px;
-    font-weight: 600;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 #page-panduan .biu-title {
-    font-size: 29px;
-    font-weight: 600;
+	font-size: 29px;
+	font-weight: 600;
 }
 
 #page-panduan .panduan-name {
-    font-size: 15px;
-    font-weight: 600;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 .fm-montserrat {
-    font-family: Montserrat;
+	font-family: Montserrat;
 }
 
 .navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
-    left: 10px;
+	left: 10px;
 }
 
 .navbar-nav>.notifications-menu>.dropdown-menu, 
 .navbar-nav>.messages-menu>.dropdown-menu, 
 .navbar-nav>.tasks-menu>.dropdown-menu {
-    width: 350px !important;
+	width: 350px !important;
 }
 
 .btn.btn-default {
-    background-color: #6F797E !important;
-    color: #fff !important;
+	background-color: #6F797E !important;
+	color: #fff !important;
 }
 
 .footer-certificate-logo-1 {
-    max-width: 120px !important;
+	max-width: 120px !important;
 }
 
 
 @media only screen and (max-width: 1400px) {
-    .owl-theme.homepage .carousel-image {
-        height: 320px;
-    }
+	.owl-theme.homepage .carousel-image {
+		height: 320px;
+	}
 }
 
 
 @media only screen and (max-width: 1600px) {
-    .owl-theme.homepage .carousel-image {
-        height: 350px;
-    }
+	.owl-theme.homepage .carousel-image {
+		height: 350px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
-    .main-logo {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        
-        
-    }
-    
-    .main-header .navbar {
-        display: none;
-    }
-    
-    .main-header {
-        height: auto;
-    }
+	.main-logo {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		
+		
+	}
+	
+	.main-header .navbar {
+		display: none;
+	}
+	
+	.main-header {
+		height: auto;
+	}
 }
 
 @media only screen and (max-width: 500px) {
-    .penawaran-content {
-        width: 100%;
-    }
-    
-        
-    .misc-content {
-    	background-size: cover !important;
-    }
-    
-    .epr-misc-content {
-    	background-size: cover !important;
-    }
-    
-    .daur-misc-content {
-    	background-size: cover !important;
-    }
-    
-    .limbah-misc-content {
-    	background-size: cover !important;
-    }
-    
-    .medis-misc-content {
-    	background-size: cover !important;
-    }
-    
-    .zero-misc-content {
-    	background-size: cover !important;
-    }
-    
-    .data-misc-content {
-    	background-size: cover !important;
-    }
-    
-    .sludge-misc-content {
-    	background-size: cover !important;
-    }
-    
-    .limbah-data .accordion-tentang {
-        width: 100%;
-    }
-    
-    .main-homepagess {
-        min-height: auto !important;
-    }
-    
-    .main-homepagess p {
-        width: 100%;
-    }
-    
-    .faq-banner {
-        background-size: cover !important;
-        background-position: left !important;
-    }
-    
-    .sludge-content {
-        background-size: cover !important;
-    }
+	.penawaran-content {
+		width: 100%;
+	}
+	
+	
+	.misc-content {
+		background-size: cover !important;
+	}
+	
+	.epr-misc-content {
+		background-size: cover !important;
+	}
+	
+	.daur-misc-content {
+		background-size: cover !important;
+	}
+	
+	.limbah-misc-content {
+		background-size: cover !important;
+	}
+	
+	.medis-misc-content {
+		background-size: cover !important;
+	}
+	
+	.zero-misc-content {
+		background-size: cover !important;
+	}
+	
+	.data-misc-content {
+		background-size: cover !important;
+	}
+	
+	.sludge-misc-content {
+		background-size: cover !important;
+	}
+	
+	.limbah-data .accordion-tentang {
+		width: 100%;
+	}
+	
+	.main-homepagess {
+		min-height: auto !important;
+	}
+	
+	.main-homepagess p {
+		width: 100%;
+	}
+	
+	.faq-banner {
+		background-size: cover !important;
+		background-position: left !important;
+	}
+	
+	.sludge-content {
+		background-size: cover !important;
+	}
 }
 
 /* Pipa Urbana */
@@ -3511,6 +3519,69 @@ a { text-decoration: none !important;}
 	line-height: 44px;
 }
 
+.container-product {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 .fw-650 {
 	font-weight: 650;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+.fw-550 {
+	font-weight: 550;
+}
+
+.box-product {
+	width: 100%;
+}
+
+.box-product .panel {
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 25px 25px;
+}
+
+.box-product .panel {
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.box-product .panel .panel-body {
+	height: 217px;
+}
+
+.box-product .img-product {
+	height: 217px;
+}
+
+
+.open {
+	background-color: #41BBAC;
+	height: 291px !important;
+	text-align: center;	
+}
+
+.open .title {
+	margin-top: 30px !important;
+}
+
+.open .body {
+	margin-top: 30px !important;
+	margin-bottom: 30px !important;
+}
+
+.open a:hover {
+	color: #fff;
+}
+
+.open a::after {
+	content: '';
+	display: block;
+	border-bottom: 1px solid #fff;
+	width: 50%;
+	margin: auto;
 }
