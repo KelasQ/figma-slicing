@@ -3315,7 +3315,6 @@ button:focus {
 		width: 100%;
 	}
 	
-	
 	.misc-content {
 		background-size: cover !important;
 	}
@@ -3524,6 +3523,10 @@ a { text-decoration: none !important;}
 	margin-bottom: 30px;
 }
 
+.fw-700 {
+	font-weight: 700;
+}
+
 .fw-650 {
 	font-weight: 650;
 }
@@ -3536,52 +3539,72 @@ a { text-decoration: none !important;}
 	font-weight: 550;
 }
 
-.box-product {
-	width: 100%;
+.fw-400 {
+	font-weight: 400;
 }
 
-.box-product .panel {
-	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+.panelx {
+	margin-bottom: 10px;
+}
+
+.box-product {
+	width: 100%;
+	border-radius: 30px !important;
+	overflow: hidden;
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
 	border-radius: 0px 0px 25px 25px;
 }
 
-.box-product .panel {
-	border-radius: 20px;
-	overflow: hidden;
+.box-product .body-box-product { background-color: #41BBAC; }
+
+.box-product .img-product { height: 217px; }
+
+.box-product .body-box-product .title-product { margin-top: 30px; margin-bottom: 20px; }
+
+.box-product .body-box-product .desc-product { margin-bottom: 30px; }
+
+.box-product .body-box-product .ancor-product {
+	display: block;
+	text-decoration: none;
+	margin-bottom: 30px;
 }
 
-.box-product .panel .panel-body {
-	height: 217px;
-}
-
-.box-product .img-product {
-	height: 217px;
-}
-
-
-.open {
-	background-color: #41BBAC;
-	height: 291px !important;
-	text-align: center;	
-}
-
-.open .title {
-	margin-top: 30px !important;
-}
-
-.open .body {
-	margin-top: 30px !important;
-	margin-bottom: 30px !important;
-}
-
-.open a:hover {
-	color: #fff;
-}
-
-.open a::after {
+.box-product .body-box-product .ancor-product:hover { color: #fff; }
+.box-product .body-box-product .ancor-product::after {
 	content: '';
 	display: block;
 	border-bottom: 1px solid #fff;
+	width: 45%;
+	margin: auto;
+}
+
+.box-toggle {
+	background-color: #41BBAC;
+	border: none;
+	display: block;
+	height: 30px;
 	width: 50%;
 	margin: auto;
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 10px 10px;
+}
+
+.box-toggle .text-toggle {
+	color: #fff;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.open-toggle .text-toggle::after {
+	content: url('../img/about_pt_uni_eco/open.png');
+	display: block;
+	margin-top: 5px;
+}
+
+.close-toggle .text-toggle::after {
+	content: url('../img/about_pt_uni_eco/close.png');
+	display: block;
+	margin-top: 2px;
 }
