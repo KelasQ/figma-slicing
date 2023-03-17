@@ -201,6 +201,10 @@ button:focus {
 	margin-top: 40px!important;
 }
 
+.mt60 {
+	margin-top: 60px!important;
+}
+
 .mb20 {
 	margin-bottom: 20px;
 }
@@ -211,6 +215,10 @@ button:focus {
 
 .mb40 {
 	margin-bottom: 40px;
+}
+
+.mb60 {
+	margin-bottom: 60px;
 }
 
 .mr25 {
@@ -1847,7 +1855,7 @@ button:focus {
 }
 
 .main-footer {
-	background: url("../images/footer-bg.png") no-repeat center center;
+	background: url('../img/footer/bg.png') no-repeat center center;
 	color: #FFF;
 	border-top: none;
 	overflow: hidden;
@@ -1856,6 +1864,23 @@ button:focus {
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 50px 25px 10px;
+}
+
+.logo-footer {
+	width: 70px !important;
+	height: 60px !important;
+	margin-left: -10px !important;
+	margin-bottom: 20px !important;
+}
+
+.item-sertifikasi {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sertifikasi-img {
+	width: 73px !important;
+	height: 73px !important;
 }
 
 .main-footer .block-1 {
@@ -1899,6 +1924,17 @@ button:focus {
 	color: #FFF;
 }
 
+.item-media-sosial {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img-media-sosial {
+	width: 40px;
+	height: 40px;
+}
+
 .main-footer .block-3 {
 	width: 30%;
 	padding: 0 15px;
@@ -1909,10 +1945,10 @@ button:focus {
 	margin: 0 0 30px 0;
 }
 
-.main-footer .block-3 .address-section h4 {
+.main-footer .block-3 .address-section {
 	/*margin-bottom: 20px;*/
 	text-align: left;
-	margin-bottom: 5px!important;
+	margin-bottom: 30px!important;
 }
 
 .main-footer .block-3 .address-section p {
@@ -3607,4 +3643,8 @@ a { text-decoration: none !important;}
 	content: url('../img/about_pt_uni_eco/close.png');
 	display: block;
 	margin-top: 2px;
+}
+
+.lh-18 {
+	line-height: 18px;
 }
